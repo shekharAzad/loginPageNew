@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+  background-color: gainsboro;
+}
+/*
+
+} */
+
+/* login styles */
+/* .App {
+  text-align: center;
+  background-color: green;
+} */
+
+.label {
+  display: block;
+  font-size: larger;
+  color: #121619;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.input {
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+}
+.btn {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  display: block;
+  /* background-color: red; */
+  color: red;
+  width: fit-content;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.success {
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #121619;
+  display: flex;
+  flex-direction: row;
+}
+.navbar .rightside {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.navbar .rightside button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
